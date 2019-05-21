@@ -39,3 +39,7 @@ end
 def sum_array(numbers_array)
   numbers_array.inject(:+)
 end
+
+def add_s(words_array)
+  words_array.each_with_index { |word, index| word << "s" unless index == 1 }
+end
