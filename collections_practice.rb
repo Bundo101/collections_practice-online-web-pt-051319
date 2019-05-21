@@ -32,4 +32,4 @@ def kesha_maker(array)
   new_array
 end
 
-def
+def find_a()
